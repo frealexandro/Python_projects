@@ -5,11 +5,11 @@ def generator_keyword():
     symbols=['!','$','%','&']
     numbers=['1','2','3','4','5','6']
 
-    caracters = capital_letter+letter+symbols+numbers
+    characters = capital_letter+letter+symbols+numbers
 
     keyword= []
     for i in range(15):
-        caracter_random=random.choice(caracters)
+        character_random=random.choice(caracters)
         keyword.append(caracter_random)
 
     keyword = "".join(keyword)
