@@ -1,11 +1,11 @@
-def es_primo(numero):
-    contador= 0
-    for i in range (1,numero+1):
-        if i == numero or  i ==1:
+def is_prime(number):
+    counter= 0
+    for i in range (1,number+1):
+        if i == number or  i ==1:
             continue
-        if numero % i == 0:
-            contador += 1
-    if contador == 0:
+        if number % i == 0:
+            counter += 1
+    if counter == 0:
         return True
     else:
         return False    
@@ -16,11 +16,11 @@ def es_primo(numero):
 
 
 def run():
-    numero=int(input("escribe un numero: "))
-    if es_primo (numero):
-        print("el numero es primo")
+    number=int(input("input a number: "))
+    if is_prime (number):
+        print("is a prime number")
     else:
-        print("el numero no es primo")
+        print("is not a prime number")
 
 
 if __name__== "__main__":
