@@ -1,12 +1,12 @@
-# edad = int(input ("¿cual es tu edad?:  " ))
-# if edad > 17 :
-#     print("ya es legal")
+# age = int(input ("¿How old are you?:  " ))
+# if age > 17 :
+#     print("already is an adult")
 # else: 
-     print("a tu casa a ver pocoyo")     
-numero = int(input("numerto entero:  "))
-if numero > 5:
-    print("numero mayor a 5")
+     print("even a teenager")     
+number = int(input("integer number:  "))
+if number > 5:
+    print("the number is higher than 5")
 elif numero == 5:
-    print("numero es igual a 5 ") 
+    print("the number is equal to 5") 
 else :
-    print("numero es menor a 5")
+    print("number is lower than 5")
