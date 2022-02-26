@@ -3,15 +3,15 @@ import random
 
 def run():
     f = random.randint(1, 100)
-    numero_elegido = int(input("ingresa un numero: "))
-    while numero_elegido != f:
-        if numero_elegido < f:
-            print("elige un numero mas grande" )
+    number_choosed = int(input("input a number: "))
+    while number_choosed != f:
+        if number_choosed < f:
+            print("choose a number  " )
         else:
-            print("elige un numero mas pequeño")
+            print("choose a smaller number ")
             
-        numero_elegido = int(input("ingresa un numero: "))
-    print("!ganaste¡")     
+        number_choosed = int(input("input number : "))
+    print("!win¡")     
 
 if __name__=="__main__":
     run()
