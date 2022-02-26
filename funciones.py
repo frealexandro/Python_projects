@@ -17,9 +17,9 @@
 #     conversation("choose the option 3")
 # else:
 #     print("choose the correct option")
-def sum (a , b):
+def summ (a , b):
     print("two numbers are sum ")
     result = a + b
     return result
-summation = sum ( 1 , 4 )
+summation = summ ( 1 , 4 )
 print (summation)
