@@ -1,25 +1,25 @@
-# def imprimir_mens():
-#     print("mensaje especial: ")
-#     print("estoy aprendiendo a usar funciones")
+# def show_mess():
+#     print("especial messeage: ")
+#     print("I'm learning how can use functions")
 
-# kimprimir_mens
-# def conversacion(mensaje):
-#     print("hola")
-#     print(mensaje)
-#     print("adios")
+# show_message
+# def conversation(message):
+#     print("hello")
+#     print(message)
+#     print("bye")
 
-# opcion = int(input("elige una opcion (1,2,3):  "))
-# if opcion == 1 :
-#     conversacion("elegiste la opcion 1")
-# elif opcion == 2 :
-#     conversacion("elegiste la opcion 2")
+# option = int(input("choose a option (1,2,3):  "))
+# if option == 1 :
+#     conversation("choose the option 1")
+# elif option == 2 :
+#     conversation("choose the option 2")
 # elif opcion == 3 :
-#     conversacion("elegiste la opcion 3")
+#     conversation("choose the option 3")
 # else:
-#     print("elige una opcion correcta")
-def suma (a , b):
-    print("se suman dos numeros")
-    resultado = a + b
-    return resultado
-sumatoria = suma ( 1 , 4 )
-print (sumatoria)
+#     print("choose the correct option")
+def sum (a , b):
+    print("two numbers are sum ")
+    result = a + b
+    return result
+summation = sum ( 1 , 4 )
+print (summation)
