@@ -1,8 +1,8 @@
 def run():
-    # for contador in range(1000):
-    #     if contador % 2 != 0:
+    # for counter in range(1000):
+    #     if counter % 2 != 0:
     #         continue
-    #     print (contador)
+    #     print (counter)
     # for i in range (1000):
     #     print(i)
     #     if i == 586:
