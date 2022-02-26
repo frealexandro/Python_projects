@@ -1,2 +1,2 @@
-# proyectos_python
-repositorios python
+# projects_python
+repositories python
