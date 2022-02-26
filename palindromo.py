@@ -1,20 +1,20 @@
-def palindromo(palabra):
-    palabra= palabra.replace(" ", "")
-    palabra= palabra.lower()
-    palabra_invertida=palabra[::-1]
-    if palabra==palabra_invertida:
+def palindrome(word):
+    word= word.replace(" ", "")
+    word= word.lower()
+    reverse_word=word[::-1]
+    if word==reverse_word:
         return True
     else:
         return False
 
 
 def run():
-    palabra = input ("escribe una palabra:  " )
-    es_palindromo = palindromo(palabra)
-    if es_palindromo == True:
-        print("es palindromo")
+    word = input ("escribe una palabra:  " )
+    is_palindrome = palindrome(word)
+    if is_palindrome == True:
+        print("is a palindrome")
     else:
-        print ("no es palindromo") 
+        print ("is not a palindrome") 
 
 
 if __name__=="__main__":
