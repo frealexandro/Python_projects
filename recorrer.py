@@ -1,10 +1,10 @@
 def run():
-    # nombre=input("ingresa tu nombre: ")
-    # for letra in nombre:
-    #     print(letra)
-    frase=input ("ingresa una frase: ")
-    for caracter in frase:
-        print(caracter.upper())
+    # name=input("input a name: ")
+    # for letter in name:
+    #     print(letter)
+    phrase=input ("input a phrase: ")
+    for character in phrase:
+        print(character.upper())
 
 
 if __name__=="__main__":
